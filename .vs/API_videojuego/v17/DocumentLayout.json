@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Migrations\\20240618164021_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240618164021_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77865CEF-9709-465F-852E-B4ACD0680E8E}|API_videojuego.csproj|c:\\users\\usuario\\source\\repos\\api_videojuego\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77865CEF-9709-465F-852E-B4ACD0680E8E}|API_videojuego.csproj|solutionrelative:controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77865CEF-9709-465F-852E-B4ACD0680E8E}|API_videojuego.csproj|c:\\users\\usuario\\source\\repos\\api_videojuego\\migrations\\20240618164021_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77865CEF-9709-465F-852E-B4ACD0680E8E}|API_videojuego.csproj|solutionrelative:migrations\\20240618164021_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77865CEF-9709-465F-852E-B4ACD0680E8E}|API_videojuego.csproj|c:\\users\\usuario\\source\\repos\\api_videojuego\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayersController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Controllers\\PlayersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlayersController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Controllers\\PlayersController.cs",
+              "RelativeToolTip": "Controllers\\PlayersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:06:52.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "20240618164021_InitDb.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Migrations\\20240618164021_InitDb.cs",
               "RelativeDocumentMoniker": "Migrations\\20240618164021_InitDb.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:38:15.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T16:38:15.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T16:34:54.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T16:34:54.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Models\\Player.cs",
@@ -81,12 +96,11 @@
               "RelativeToolTip": "Models\\Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:33:27.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T16:33:27.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -94,8 +108,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:30:38.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T16:30:38.353Z"
             }
           ]
         }
