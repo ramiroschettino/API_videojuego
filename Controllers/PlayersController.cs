@@ -17,16 +17,25 @@ namespace API_videojuego.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> CreatePlayer(Player player) 
+        public async Task<ActionResult<int>> CreatePlayer(Player player)
         {
             if (player == null)
             {
                 return BadRequest();
             }
-            else { 
+            else {
                 _context.Players.Add(player);
                 await _context.SaveChangesAsync();
+
+                return Ok(player.Id);
             }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetPlayerById(int id) 
+        { 
+            var player = await _context.Players.FindAsync(id);
+            return Ok(player);
         }
 
     }

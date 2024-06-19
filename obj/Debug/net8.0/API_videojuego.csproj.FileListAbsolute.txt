@@ -134,3 +134,4 @@ C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\refint\API_videoju
 C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\API_videojuego.pdb
 C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\API_videojuego.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\ref\API_videojuego.dll
+C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\API_videojuego.sourcelink.json

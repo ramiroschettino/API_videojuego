@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Controllers\\PlayersController.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\API_videojuego\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "Controllers\\PlayersController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAyAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T23:06:52.341Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Migrations\\20240618164021_InitDb.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:40:22.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T16:40:22.266Z"
             },
             {
               "$type": "Document",
