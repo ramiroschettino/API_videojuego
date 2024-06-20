@@ -1,6 +1,10 @@
 ﻿using API_videojuego.Data;
+using API_videojuego.Features.Players.CreatePlayer;
+using API_videojuego.Features.Players.GetPlayerById;
 using API_videojuego.Models;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace API_videojuego.Controllers
 {
@@ -10,31 +14,31 @@ namespace API_videojuego.Controllers
     {
 
         private readonly AppDbContext _context;
+        private readonly ISender _sender;
 
-        public PlayersController(AppDbContext context)
+        public PlayersController(AppDbContext context, ISender sender)
         {
             _context = context;
+            _sender = sender;
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> CreatePlayer(Player player)
+        public async Task<ActionResult<int>> CreatePlayer(CreatePlayerCommand command)
         {
-            if (player == null)
-            {
-                return BadRequest();
-            }
-            else {
-                _context.Players.Add(player);
-                await _context.SaveChangesAsync();
 
-                return Ok(player.Id);
-            }
+            var playerId = await _sender.Send(command);
+            return Ok(playerId);
+            
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetPlayerById(int id) 
-        { 
-            var player = await _context.Players.FindAsync(id);
+        {
+            var player = await _sender.Send(new GetPlayerByIdQuery(id));
+
+            if (player is null)
+                return NotFound();
+
             return Ok(player);
         }
 

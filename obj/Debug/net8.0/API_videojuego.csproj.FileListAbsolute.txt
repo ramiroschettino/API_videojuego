@@ -135,3 +135,5 @@ C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\API_videojuego.pdb
 C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\API_videojuego.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\ref\API_videojuego.dll
 C:\Users\Usuario\source\repos\API_videojuego\obj\Debug\net8.0\API_videojuego.sourcelink.json
+C:\Users\Usuario\source\repos\API_videojuego\bin\Debug\net8.0\MediatR.dll
+C:\Users\Usuario\source\repos\API_videojuego\bin\Debug\net8.0\MediatR.Contracts.dll
